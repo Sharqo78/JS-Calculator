@@ -10,7 +10,7 @@ document.getElementById("resultSub").textContent = "Soustraction : "  + soustrac
 multiplication = val1*val2;
 document.getElementById("resultMult").textContent = "Multiplication : "  + multiplication;
 division = val1/val2;
-document.getElementById("resultDiv").textContent = "Divison : "  +  division;
+document.getElementById("resultDiv").textContent = "Division : "  +  division;
 }
 
 window.onload = function(){
