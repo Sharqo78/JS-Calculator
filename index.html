@@ -11,16 +11,15 @@
 		<div id="titre">
 			<img src="images/logo.png">
 			<h1>BTS SN</h1>
-			<h2>Lycée Bourdelle</h2>
+			<h2><a href="https://bourdelle.mon-ent-occitanie.fr" id="lycee">Lycée Antoine Bourdelle</a></h2>
 		</div>
 	</header>
 
 	<body>
 		<h2 id="title"> Zone de calcul </h2>
-		<form id="calculs" action="#" onsubmit="calculs()">
 			<input type="text" id="valeur1">
 			<input type="text" id="valeur2">
-			<input type="submit" id="valider" value="Valider">
+			<button id="valider" onclick="calculs()">Valider</button>
 			</br>
 			</br>
 			<p id="resultAdd"></p>
@@ -33,7 +32,11 @@
 			</br>
 			</br>
 			<p id="resultDiv"></p>
-		</form>
+			</br>
+			</br>
+			<p id="astuces"> Astuce : cette calculatrice est compatible avec les valeurs flottantes, cependant, </br>
+			il faut utiliser un point au lieu de la virgule (notation américaine des nombres) </p>
+			<p id="astuces"> Astuce II : Les mots "Github" et "Lycée Bourdelle" sont cliquables </p>
 	</body>
 
 	<footer>
