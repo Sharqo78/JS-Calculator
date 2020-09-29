@@ -15,7 +15,7 @@ img{
 	height:125px;
 	float:right;
 	position:relative;
-	margin-left:-145px;
+	margin-left:-150px;
 	padding:2px;
 }
 
@@ -65,7 +65,7 @@ p{
 }
 
 #valider{
-     background-color: #85FFBD;
+     background-color: #FBAB7E;
      background-image: linear-gradient(45deg, #FFFB7D, rgba(255,255,255,0));
      padding:5px;
      transition: 0.5s;
@@ -77,11 +77,12 @@ p{
      box-shadow: 0px 0px 5px #000000;
 }
 #valider:hover{
-     background-color: #FBAB7E;
+     background-color: #85FFBD;
      padding-top:5px;
      padding-bottom:5px;
      padding-left:10px;
      padding-right:10px;
+	 font-size:20px;
 }
 #valider:focus{
      background-color: #00FF00;
@@ -89,9 +90,27 @@ p{
      padding-bottom:5px;
      padding-left:10px;
      padding-right:10px;
+	 font-size:20px;
 }	
 input{
 	font-family:"Lato";
      font-size: 16px;
      text-align:center;
+}
+
+a{
+	transition:0.5s;
+	text-decoration:none;
+	color: #001f3f;
+
+}
+
+a:hover {
+  color: #FF4136;
+  font-size:120%;
+}
+
+#astuces{
+	color:#AAAAAA;
+	text-shadow:none;
 }
